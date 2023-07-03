@@ -2,7 +2,7 @@
   "name": "luxury__dubai",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Senior322.github.io/Luxury",
+  "homepage": "https://senior322.github.io/Luxury/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Luxury/"
