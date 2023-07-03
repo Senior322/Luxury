@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "luxury__dubai",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/Senior322/Luxury",
+  "homepage": "https://Senior322.github.io/Luxury",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Luxury/"
   },
   "repository": {
     "type": "git",
