@@ -73,6 +73,8 @@
 }
 .hero__title-link-svg {
    margin-left: 7px;
+   width: 8px;
+   height: 14px;
 }
 .hero__button {
    color: #fff;
