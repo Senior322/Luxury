@@ -1,4 +1,4 @@
-.offScroll{
+.offScroll {
    overflow-y: hidden;
 }
 .header {
@@ -25,7 +25,11 @@
    width: 100%;
    height: calc(100vh - 40px);
 }
-.burger__open{
+.button__menu {
+   display: flex;
+   justify-content: center;
+}
+.burger__open {
    left: 0;
 }
 .logo {
@@ -79,6 +83,9 @@
    border-top: 1px #fcd54c solid;
    padding-top: 40px;
    align-items: center;
+}
+.header__suppbox--none-mobile {
+   display: none;
 }
 .logo__button {
    background: #fcd54c;
@@ -146,18 +153,75 @@
    line-height: normal;
    text-transform: uppercase;
 }
+.burger__open-buy {
+   display: grid;
+   padding-left: 30px;
+   padding-top: 10px;
+   gap: 15px;
+   opacity: 0;
+   transition: opacity 1s ease;
+   height: 0px;
+   color: #fff;
+   font-family: Gilroy;
+   text-transform: none;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.menu__ul-li--down {
+   overflow: hidden;
+   height: 42px;
+   transition: height 1s ease;
+}
+.menu__ul-li--down:focus>.burger__open-buy,
+.menu__ul-li--down:hover>.burger__open-buy{
+   /* display: grid; */
+   height: auto;
+   opacity: 1;
+}
+.menu__ul-li--down:focus,
+.menu__ul-li--down:hover{
+   height: 132px;
+}
+.burger__open-buy--li{
+
+}
+.buy__images{
+   transform: rotate(0deg);
+   transition: transform 1s ease;
+   margin-left: 18px;
+}
+.menu__ul-li--down:focus .buy__images,
+.menu__ul-li--down:hover .buy__images{
+   transform: rotate(180deg);
+}
+.menu__ul-li--buy-img{
+   display: flex;
+   align-items: center;
+}
 @media screen and (min-width: 768px) {
    .logo {
-      justify-content: left;
+      /* justify-content: left; */
    }
    .header__suppbox {
       display: flex;
-      margin-left: auto;
+      border: 0px;
+      margin: 0 30px 0 auto;
+      padding: 0;
+      flex-direction: row;
    }
-   
+   .header__suppbox--none {
+      display: none;
+   }
+   .menu {
+      display: flex;
+      justify-content: space-evenly;
+   }
+  
 }
 @media screen and (min-width: 1920px) {
-   .offScroll{
+   .offScroll {
       overflow: auto;
    }
    .menu {
@@ -171,7 +235,7 @@
    .menu__ul-li---active {
       color: #fcd54c;
       border-bottom: 4px solid #fcd54c;
-      // font-family: Gilroy;
+      font-family: Gilroy;
       font-size: 14px;
       font-style: normal;
       font-weight: 600;
@@ -180,7 +244,7 @@
    }
    .menu__ul-li {
       color: #fff;
-      // font-family: Gilroy;
+      font-family: Gilroy;
       font-size: 14px;
       font-style: normal;
       font-weight: 600;

@@ -9,11 +9,16 @@
             <div class="burger">
             <nav class="menu">
                <ul class="menu__ul">
-                  <li class="menu__ul-li menu__ul-li---active">BUY<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none">
+                  <li class="menu__ul-li menu__ul-li---active menu__ul-li--down">
+                     <div class="menu__ul-li--buy-img">
+                     BUY<svg class="buy__images" xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none">
                      <path d="M4.82812 0.82843H9.65656L4.82812 5.65686L-0.000305211 0.82843H4.82812Z" fill="white"/>
                    </svg>
-                  <ul>
-
+                     </div>
+                  <ul class="burger__open-buy">
+                     <li class="burger__open-buy--li">Category number one </li>
+                     <li class="burger__open-buy--li">Apartments in Dubai</li>
+                     <li class="burger__open-buy--li">Category number twenty five</li>
                   </ul>
                   </li>
                   <li class="menu__ul-li">BLOG</li>
@@ -21,7 +26,7 @@
                   <li class="menu__ul-li">CONTACT</li>
                </ul>
             </nav>
-            <div class="header__suppbox">
+            <div class="header__suppbox header__suppbox--none">
             <button class="logo__button"><p class="logo__button-text">Book a consultation</p></button>
             <a class="header__tel" href="tel:+72126742510"><p>+7 (212) 674-25-10</p></a>
             <ul class="header__suppbox-language">
@@ -30,7 +35,15 @@
             </ul>
             </div>
          </div>
-            <button type="button" class="buttonMenu" data-open="false">
+         <div class="header__suppbox header__suppbox--none-mobile">
+            <button class="logo__button"><p class="logo__button-text">Book a consultation</p></button>
+            <ul class="header__suppbox-language">
+               <li class="header__suppbox-language-li--active">En</li>
+               <li class="header__suppbox-language-li">Ua</li>
+            </ul>
+            <a class="header__tel" href="tel:+72126742510"><p>+7 (212) 674-25-10</p></a>
+            </div>
+            <button type="button" class="button__menu" data-open="false">
                <img src="images/Icon.svg" alt="burger" fill="#000"/>
             </button>
          </div>
