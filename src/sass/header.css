@@ -200,6 +200,15 @@
    display: flex;
    align-items: center;
 }
+.button__menu-image-2{
+   display: none;
+}
+.button__menu--close .button__menu-image-1{
+   display: none;
+}
+.button__menu--close .button__menu-image-2{
+   display: block;
+}
 @media screen and (min-width: 768px) {
    .logo {
       /* justify-content: left; */
@@ -218,7 +227,6 @@
       display: flex;
       justify-content: space-evenly;
    }
-  
 }
 @media screen and (min-width: 1920px) {
    .offScroll {
