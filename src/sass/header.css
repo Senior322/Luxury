@@ -171,43 +171,118 @@
 }
 .menu__ul-li--down {
    overflow: hidden;
+   position: relative;
    height: 42px;
    transition: height 1s ease;
 }
-.menu__ul-li--down:focus>.burger__open-buy,
-.menu__ul-li--down:hover>.burger__open-buy{
+.menu__ul-li--down:focus > .burger__open-buy,
+.menu__ul-li--down:hover > .burger__open-buy {
    /* display: grid; */
    height: auto;
    opacity: 1;
 }
 .menu__ul-li--down:focus,
-.menu__ul-li--down:hover{
+.menu__ul-li--down:hover {
    height: 132px;
 }
-.burger__open-buy--li{
-
+.burger__open-buy--li {
 }
-.buy__images{
+.buy__images {
    transform: rotate(0deg);
    transition: transform 1s ease;
    margin-left: 18px;
 }
 .menu__ul-li--down:focus .buy__images,
-.menu__ul-li--down:hover .buy__images{
+.menu__ul-li--down:hover .buy__images {
    transform: rotate(180deg);
 }
-.menu__ul-li--buy-img{
+.menu__ul-li--buy-img {
    display: flex;
    align-items: center;
 }
-.button__menu-image-2{
+.button__menu-image-2 {
    display: none;
 }
-.button__menu--close .button__menu-image-1{
+.button__menu--close .button__menu-image-1 {
    display: none;
 }
-.button__menu--close .button__menu-image-2{
+.button__menu--close .button__menu-image-2 {
    display: block;
+}
+.consultation__window {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background: rgba(39, 39, 39, 0.90);
+   z-index: 999;
+}
+.consultation__window--polotno {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   background-color: #fff;
+   position: absolute;
+   width: 288px;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+}
+.consultation__window--form {
+   display: grid;
+}
+.consultation__window--title {
+   color: #000;
+   text-align: center;
+   font-family: Gilroy;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.consultation__window--text {
+   color: #000;
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 10px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.consultation__window--button {
+   color: #000;
+   text-align: center;
+   margin: auto;
+   font-family: Work Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   width: 216px;
+   height: 54px;
+   flex-shrink: 0;
+   background: #fcd54c;
+   margin-top: 20px;
+}
+.consultation__window--span {
+   color: #000;
+   margin-top: 10px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   border-bottom: 1px solid;
+}
+.consultation__window--knopka {
+   position: absolute;
+   top: -20px;
+   right: -20px;
+   width: 15px;
+   height: 15px;
+   flex-shrink: 0;
+   background-color: #00000000;
 }
 @media screen and (min-width: 768px) {
    .logo {
@@ -237,8 +312,10 @@
    }
    .menu__ul {
       display: flex;
-      margin-left: 152px;
-      gap: 10px;
+      flex-direction: row;
+      margin: 0;
+      margin-left: 180px;
+      gap: 50px;
    }
    .menu__ul-li---active {
       color: #fcd54c;
@@ -251,6 +328,7 @@
       text-transform: uppercase;
    }
    .menu__ul-li {
+      height: 100%;
       color: #fff;
       font-family: Gilroy;
       font-size: 14px;
@@ -264,5 +342,64 @@
    }
    .header__suppbox-language {
       margin-right: 53px;
+   }
+   .button__menu {
+      display: none;
+   }
+   .burger {
+      background-color: #272727;
+      position: inherit;
+      padding: 0;
+      width: auto;
+      height: auto;
+   }
+   .menu {
+      display: flex;
+      position: relative;
+      background-color: #fcd64c00;
+      flex-direction: row;
+   }
+   .burger__open-buy {
+      position: absolute;
+      /* opacity: 1; */
+      left: 0;
+      gap: 0;
+      padding: 0;
+      border: 1px solid #979797;
+      background: #272727;
+      top: calc(100% + 12px);
+      width: 247px;
+      height: auto;
+      flex-shrink: 0;
+   }
+   .burger__open-buy--li {
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      color: #fff;
+      font-family: Gilroy;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+   }
+   .burger__open-buy--li:hover,
+   .burger__open-buy--li:focus {
+      background-color: #fcd54c;
+      color: #272727;
+   }
+   .menu__ul-li--down {
+      height: auto;
+      overflow: visible;
+   }
+   .menu__ul-li--down:focus > .burger__open-buy,
+   .menu__ul-li--down:hover > .burger__open-buy {
+      /* display: grid; */
+      height: auto;
+      opacity: 1;
+   }
+   .menu__ul-li--down:focus,
+   .menu__ul-li--down:hover {
+      height: auto;
    }
 }
