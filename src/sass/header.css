@@ -210,13 +210,17 @@
    display: block;
 }
 .consultation__window {
+   display: none;
    position: fixed;
    top: 0;
    left: 0;
    width: 100vw;
    height: 100vh;
-   background: rgba(39, 39, 39, 0.90);
+   background: rgba(39, 39, 39, 0.9);
    z-index: 999;
+}
+.consultation__window--open {
+   display: block;
 }
 .consultation__window--polotno {
    display: flex;
@@ -268,6 +272,7 @@
 .consultation__window--span {
    color: #000;
    margin-top: 10px;
+   padding-bottom: 10px;
    font-family: Gilroy;
    font-size: 16px;
    font-style: normal;
@@ -301,6 +306,22 @@
    .menu {
       display: flex;
       justify-content: space-evenly;
+   }
+   .consultation__window--polotno {
+      padding: 100px;
+      width: 690px;
+   }
+   .consultation__window--title {
+      font-size: 36px;
+   }
+   .consultation__window--text {
+      font-size: 14px;
+   }
+   .consultation__window--button {
+      margin-top: 40px;
+   }
+   .consultation__window--span:first-child {
+      margin-bottom: 15px;
    }
 }
 @media screen and (min-width: 1920px) {
@@ -401,5 +422,32 @@
    .menu__ul-li--down:focus,
    .menu__ul-li--down:hover {
       height: auto;
+   }
+   .consultation__window--polotno {
+      padding: 100px;
+      width: 730px;
+      height: auto;
+   }
+   .consultation__window--title {
+      font-size: 48px;
+   }
+   .consultation__window--text {
+      font-size: 20px;
+   }
+   .consultation__window--button {
+      margin-top: 56px;
+   }
+   .consultation__window--form {
+      padding-top: 46px;
+   }
+   .consultation__window--span:first-child {
+      margin-bottom: 20px;
+   }
+   .consultation__window--knopka {
+      top: -56px;
+      right: -100px;
+      width: 30px;
+      height: 30px;
+      flex-shrink: 0;
    }
 }
