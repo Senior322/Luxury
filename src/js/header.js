@@ -28,3 +28,4 @@ consultationWindow.addEventListener('click', (e)=>{
       consultationWindow.classList.toggle('consultation__window--open');
    }
 })
+
