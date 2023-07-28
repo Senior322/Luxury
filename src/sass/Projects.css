@@ -101,26 +101,35 @@
 .projects__pagination-li--current {
    background-color: #fcd54c;
 }
-.container__title-box{
+.container__title-box {
    margin-bottom: 10px;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
    .projects__menu-images {
       grid-template-columns: 1fr 1fr 1fr 1fr;
    }
    .projects__menu {
-     display: inline-flex;
-     justify-content: end;
-     align-items: end;
-     gap: 20px;
-     margin: 0;
+      display: inline-flex;
+      justify-content: end;
+      align-items: end;
+      gap: 20px;
+      margin: 0;
    }
-   .container__title{
+   .container__title {
       display: inline-block;
    }
-   .container__title-box{
+   .container__title-box {
       display: flex;
       justify-content: space-between;
       margin-bottom: 25px;
    }
-}
+   .projects__pagination{
+      margin-top: 20px;
+   }
+   }
+   @media screen and (min-width: 1920px) {
+      .projects__pagination{
+         margin-top: 100px;
+      }
+
+   }
