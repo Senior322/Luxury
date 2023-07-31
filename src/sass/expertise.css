@@ -1,4 +1,4 @@
-.section__expertise{
+.section__expertise {
    padding-inline: 35px;
    margin-top: 78px;
 }
@@ -31,10 +31,10 @@
    margin-top: 40px;
    margin-bottom: 40px;
 }
-.video{
+.video {
    height: inherit;
 }
-.second__part{
+.second__part {
    padding-inline: 35px;
 }
 .second__part--expression {
@@ -87,4 +87,31 @@
    font-style: normal;
    font-weight: 400;
    line-height: 160%; /* 22.4px */
+}
+@media screen and (min-width: 768px) {
+   .expertise__title {
+      margin: 14px 0px 22px;
+   }
+   .placeholder {
+      margin-top: 70px;
+      margin-bottom: 70px;
+   }
+   .second__part--ul{
+      display: flex;
+      gap: 30px;
+   }
+  /* .second__part--ul-li{
+   gap: 30px;
+  } */
+  .second__placeholder{
+   width: 100%;
+  }
+  .third__placeholder{
+   width: 100%;
+  }
+  .second__part--expression{
+   padding: 38px 60px;
+  }
+}
+@media screen and (min-width: 1920px) {
 }
