@@ -1,6 +1,7 @@
 .contact__us {
    background-image: url(../images/Rectangle\ 868.png);
    height: 264px;
+   margin-top: 40px;
 }
 .contact__container {
    display: flex;
@@ -66,6 +67,25 @@
    line-height: normal;
 }
 @media screen and (min-width: 768px) {
+   .contact__title{
+      font-size: 70px;
+   }
+   .contact__us{
+      margin-top: 70px;
+   }
 }
 @media screen and (min-width: 1920px) {
+   .contact__us{
+      background-image: url(../images/Rectangle\ 868\ \(1920\).png);
+      margin-top: 115px;
+      max-width: 1800px;
+      height: 400px;
+      margin: auto;
+   }
+   .contact__text{
+      font-size: 18px;
+   }
+   .contact__title{
+      font-size: 120px;
+   }
 }
