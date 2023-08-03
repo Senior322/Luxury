@@ -1,0 +1,71 @@
+.contact__us {
+   background-image: url(../images/Rectangle\ 868.png);
+   height: 264px;
+}
+.contact__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.contact__text {
+   color: #272727;
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   padding-top: 50px;
+}
+.contact__title {
+   color: #272727;
+   text-align: center;
+   font-family: Gilroy;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   padding-top: 20px;
+}
+.contact__form {
+   padding-top: 30px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 288px;
+}
+.contact__form--input {
+   padding-inline: 14px;
+   width: 182px;
+   /* padding-left: 14px; */
+   height: 41px;
+   flex-shrink: 0;
+   background: #fff;
+}
+.contact__form--input::placeholder {
+   color: #272727;
+   font-family: Work Sans;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   opacity: 0.5;
+}
+.contact__form--button {
+   width: 106px;
+   height: 41px;
+   flex-shrink: 0;
+   background: #272727;
+}
+.contact__form--button-text {
+   color: #fff;
+   font-family: Work Sans;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1920px) {
+}
