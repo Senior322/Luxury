@@ -1,7 +1,6 @@
 const Data = document.querySelector('.projects__menu-images');
 const nextButtons = document.querySelectorAll('.projects__pagination-li');
-// const previousButton = document.querySelector('.test2');
-// const button3 = document.querySelector('.test0');
+
 
 nextButtons.forEach((button ,index, arr)=>{
    button.addEventListener('click', ()=> {
