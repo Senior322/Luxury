@@ -1,9 +1,12 @@
 .footer {
    margin-top: 40px;
-   position: relative;
+   display: flex;
+   justify-content: center;
+   border-top: 1px solid #929292;
 }
 .footer__container {
    max-width: 284px;
+   padding-top: 40px;
 }
 .footer__logo {
    display: flex;
@@ -11,32 +14,7 @@
    width: 100%;
    align-items: center;
 }
-.logo-link_img {
-   flex-shrink: 0;
-   position: absolute;
-   left: 0;
-   top: 0;
-}
-.logo-text1 {
-   color: #fff;
-   font-family: Gilroy;
-   font-size: 28px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
-}
-.logo-text2 {
-   color: #fff;
-   font-family: Work Sans;
-   font-size: 11px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-}
-.footer__container-list {
-}
-.footer__container-list--li {
-}
+
 .contact {
 }
 .contact__title {

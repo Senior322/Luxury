@@ -49,6 +49,7 @@
    position: absolute;
    left: 0;
    top: 0;
+   width: 30px;
 }
 .logo-text1 {
    color: #fff;
@@ -184,8 +185,7 @@
 .menu__ul-li--down:focus,
 .menu__ul-li--down:hover {
    height: 132px;
-}
-.burger__open-buy--li {
+   
 }
 .buy__images {
    transform: rotate(0deg);
@@ -290,9 +290,9 @@
    background-color: #00000000;
 }
 @media screen and (min-width: 768px) {
-   .logo {
-      /* justify-content: left; */
-   }
+   /* .logo {
+      justify-content: left;
+   } */
    .header__suppbox {
       display: flex;
       border: 0px;
