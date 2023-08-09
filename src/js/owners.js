@@ -34,7 +34,7 @@ function UpdateButtons(){
          button.classList.add('owners__pagination--button-active');
       }
       else{
-         button.classList.add('owners__pagination--button') = '#929292';
+         button.classList.add('owners__pagination--button');
       }
    })
 }
