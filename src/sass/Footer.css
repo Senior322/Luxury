@@ -29,3 +29,16 @@
    flex-shrink: 0;
    background: #fcd54c;
 }
+.footer__nav--item{
+   display: grid;
+   grid-template-rows: auto 0fr;
+   overflow: hidden;
+   transition: grid-template-rows 1s ease;
+}
+.footer__nav--item-div{
+   overflow: hidden;
+
+}
+.footer__nav--item--open{
+   grid-template-rows: auto 1fr;
+}
