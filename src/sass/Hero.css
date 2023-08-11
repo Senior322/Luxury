@@ -136,7 +136,9 @@
    font-weight: 600;
    line-height: normal;
 }
-
+/* .hero__sociall-link{
+   color: #E8E8E8;
+} */
 /* media */
 @media screen and (min-width: 768px) {
    .hero__title{
@@ -186,7 +188,6 @@
    }
    .hero__sociall-link{
       color: #E8E8E8;
-      
    }
    .hero__sociall-link:hover,
    .hero__sociall-link:focus{
