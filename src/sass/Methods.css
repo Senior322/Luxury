@@ -80,7 +80,6 @@
    /* height: 345px; */
 }
 .border__yellow-content {
-   /* margin: 8px 25px 10px 12px; */
    display: flex;
    flex-direction: column;
 }
@@ -101,8 +100,6 @@
 .border__yellow-container {
    display: flex;
    flex-direction: column;
-   /* justify-content: space-between; */
-
 }
 .border__yellow-content-text {
    color: #fff;
