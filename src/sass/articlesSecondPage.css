@@ -1,0 +1,22 @@
+.wrapper {
+   background-color: #fcd54c;
+}
+.info__more {
+   color: #272727;
+}
+.second__arrow {
+   color: #272727;
+}
+.second__arrow {
+   width: 11.322px;
+   height: 20.025px;
+   flex-shrink: 0;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1920px) {
+   .articles{
+      margin-top: 210px;
+      margin-bottom: 200px;
+   }
+}

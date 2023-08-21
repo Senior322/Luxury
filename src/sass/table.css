@@ -9,7 +9,6 @@
 .table__table-tr {
    background-color: #fcd54c;
    height: 74px;
-   /* text-align: center; */
 }
 .table__table-tr-th {
    color: #272727;
@@ -18,10 +17,6 @@
    font-style: normal;
    font-weight: 400;
    line-height: 26px; /* 162.5% */
-}
-.table__table-tr-th:first-child {
-   /* padding-left: 20px; */
-   
 }
 .table__table-tr-th:last-child {
    padding-right: 26px;
@@ -43,9 +38,6 @@
    font-weight: 700;
    line-height: 26px; /* 162.5% */
 }
-.table__table-tr-body {
-   /* padding-block: 10px; */
-}
 .table__table-tr-body:nth-child(even) {
    background-color: rgba(255, 255, 255, 0.1);
 }
@@ -58,6 +50,9 @@
    .table__container {
       max-width: 690px;
    }
+   .table__table{
+      min-width: 690px;
+   }
 }
 @media screen and (min-width: 1920px) {
    .table {
@@ -65,5 +60,8 @@
    }
    .table__container {
       max-width: 1110px;
+   }
+   .table__table{
+      min-width: 1110px;
    }
 }
