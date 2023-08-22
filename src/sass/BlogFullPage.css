@@ -1,9 +1,94 @@
-.blog__page{
-
+.blog__page {
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
 }
-.blog__page-container{
-
+.blog__page-container {
+   max-width: 288px;
 }
-.blog__page-container-title{
+.blog__page-galery-container-ul{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.blog__page-galery-container-ul-li-img {
+   height: 328px;
+}
+.blog__page-container-title {
+   color: #fff;
+   font-family: Gilroy;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.blog__page-galery-container {
+   margin-top: 30px;
+}
+.li__bottom-item {
+   border: 1px solid #fcd54c;
+   width: 100%;
+   height: 248px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   animation-play-state: running;
+   transition: background-color 1s ease;
+   padding: 20px;
+}
+.li__bottom-item:hover,
+.li__bottom-item:focus {
+   background-color: #fcd54c;
+}
+.li__bottom-item:hover>.li__bottom-item-title,
+.li__bottom-item:focus>.li__bottom-item-title,
+.li__bottom-item:hover>.li__bottom-item-text,
+.li__bottom-item:focus>.li__bottom-item-text,
+.li__bottom-item:hover>.li__bottom-item-info,
+.li__bottom-item:focus>.li__bottom-item-info{
+   color: #272727;
+   stroke: #272727;
+}
+.li__bottom-item-title {
+   color: #fff;
+   font-family: Gilroy;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 35px; /* 145.833% */
+}
+.li__bottom-item-text {
+   padding-top: 22px;
+   color: #929292;
+   font-family: Gilroy;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 21px; /* 150% */
+}
+.li__bottom-item-info {
+   display: flex;
+   align-items: center;
+   padding-top: 28px;
+   color: #fff;
+   stroke: #fff;
+}
+.li__bottom-item-info-another-text {
+   color: inherit;
+   font-family: Work Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 24px; /* 150% */
+}
+.li__bottom-item-arrow {
+   width: 11.322px;
+   height: 20.025px;
+   margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+   
+}
+@media screen and (min-width: 1920px) {
    
 }
