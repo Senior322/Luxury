@@ -147,7 +147,7 @@
    .search__container{
       min-width: 100%;
       /* margin-inline: 62px; */
-      padding-inline: 62px;
+      padding-inline: 40px;
    }
    .blog__page-container-title{
       font-size: 60px;
