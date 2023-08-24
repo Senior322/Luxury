@@ -107,6 +107,8 @@
    line-height: normal;
 }
 .header__tel {
+   display: block;
+   width: max-content;
    color: #fff;
    font-family: Gilroy;
    font-size: 16px;
@@ -366,6 +368,9 @@
    }
    .header__suppbox-language {
       margin-right: 53px;
+   }
+   .header__suppbox{
+      margin-right: 0;
    }
    .button__menu {
       display: none;
