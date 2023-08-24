@@ -32,10 +32,6 @@
    border: 4px solid #fcd54c;
    border-right: 0px;
    pointer-events: none;
-   /* border-color: #FCD54C;
-   border-top: 4px;
-   border-left: 4px;
-   border-bottom: 4px; */
    height: 100%;
    width: 63px;
 }
@@ -204,6 +200,21 @@
   
 }
 @media screen and (min-width: 1920px){
+   .hero__title-box{
+      padding: 44px 28px;
+      margin: 278px 0px 310px 356px;
+   }
+   .hero__subtitle{
+      font-size: 16px;
+   }
+   .hero__title{
+      font-size: 96px;
+      margin-top: 22px;
+   }
+   .hero__title-link{
+      font-size: 20px;
+      margin-top: 20px;
+   }
    .hero__list{
       width: 1080px;
       height: 150px;
@@ -215,5 +226,15 @@
       right: 75px;
       top: 40px;
       /* margin: 40px 20px; */
+   }
+   .hero__list-number{
+      font-size: 60px;
+   }
+   .hero__list-number--active{
+      font-size: 60px;
+   }
+   .hero__list-text{
+      max-width: 116px;
+      font-size: 16px;
    }
 }
