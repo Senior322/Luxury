@@ -1,13 +1,9 @@
 .contact__page {
    margin-top: 20px;
-   /* display: flex; */
-   /* justify-content: center; */
-   /* align-items: center; */
 }
 .contact__page-container {
    margin-inline: 35px;
    max-width: 288px;
-   /* background-color: red; */
 }
 .contact__page-container-title {
    color: #fff;
@@ -116,7 +112,6 @@ iframe{
       position: relative;
    }
    .contact__page-container-two {
-      /* display: none; */
       position: absolute;
       top: 200px;
       left: 50px;
@@ -140,9 +135,6 @@ iframe{
    }
    .contact__page-container-title {
       font-size: 60px;
-      /* padding-left: 405px; */
-      /* width: 1180px; */
-      /* margin: auto; */
       margin-left: 298px;
    }
    iframe{
