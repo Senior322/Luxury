@@ -41,7 +41,7 @@
 .logo__link {
    padding-top: 5px;
    padding-left: 10px;
-   height: 49px;
+   height: 50px;
    position: relative;
 }
 .logo__link_img {
@@ -187,7 +187,6 @@
 .menu__ul-li--down:focus,
 .menu__ul-li--down:hover {
    height: 132px;
-   
 }
 .buy__images {
    transform: rotate(0deg);
@@ -292,9 +291,6 @@
    background-color: #00000000;
 }
 @media screen and (min-width: 768px) {
-   /* .logo {
-      justify-content: left;
-   } */
    .header__suppbox {
       display: flex;
       border: 0px;
@@ -333,6 +329,11 @@
    .offScroll {
       overflow: auto;
    }
+   .logo__link {
+      height: 60px;
+      padding-top: 12px;
+      padding-left: 15px;
+   }
    .menu {
       display: flex;
    }
@@ -369,7 +370,7 @@
    .header__suppbox-language {
       margin-right: 53px;
    }
-   .header__suppbox{
+   .header__suppbox {
       margin-right: 0;
    }
    .button__menu {
