@@ -35,6 +35,9 @@
    flex-direction: column;
    gap: 20px;
 }
+/* .contact__last-container-form:last-child{
+   background-color: red;
+} */
 .contact__last-container-form-input{
    background-color: #272727;
    border: 1px solid #C9C9C9;
