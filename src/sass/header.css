@@ -331,11 +331,15 @@
    .container {
       padding-inline: 60px;
    }
+   .header__tel{
+      text-align: end;
+   }
    .offScroll {
       overflow: auto;
    }
    .logo__link {
       height: 60px;
+      width: 132px;
       padding-top: 12px;
       padding-left: 15px;
    }
@@ -377,6 +381,7 @@
    }
    .header__suppbox {
       margin-right: 0;
+      gap: 0;
    }
    .button__menu {
       display: none;
