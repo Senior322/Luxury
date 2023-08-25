@@ -3,7 +3,6 @@
 }
 .contact__page-container {
    margin-inline: 35px;
-   max-width: 288px;
 }
 .contact__page-container-title {
    color: #fff;
@@ -102,10 +101,16 @@
 }
 .map{
    margin-top: 30px;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: column;
+   aspect-ratio: 16 / 9;
 }
 iframe{
-   width: 288px;
-   height: 350px;
+   min-height: 350px;
+   aspect-ratio: 16 / 9;
 }
 @media screen and (min-width: 768px) {
    .contact__page-container{
@@ -116,20 +121,17 @@ iframe{
       top: 200px;
       left: 50px;
       background-color: black;
+      max-width: 272px;
+      max-height: 354px;
    }
    .contact__page-container-title {
       font-size: 50px;
-   }
-   iframe{
-      width: 695px;
-      height: 596px;
    }
 }
 @media screen and (min-width: 1920px) {
    .contact__page-container{
       display: flex;
       flex-direction: column;
-      /* align-items: stretch; */
       margin-inline: 60px;
       max-width: 1800px;
    }
@@ -142,7 +144,7 @@ iframe{
       height: 768px;
    }
    .map{
-      width: 1800px;
-      height: 768px;
+      max-width: 1800px;
+      max-height: 768px;
    }
 }
