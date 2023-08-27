@@ -99,7 +99,7 @@
    font-weight: 400;
    line-height: 21px; /* 150% */
 }
-.map{
+.map {
    margin-top: 30px;
    width: 100%;
    height: 100%;
@@ -108,42 +108,80 @@
    justify-content: column;
    aspect-ratio: 16 / 9;
 }
-iframe{
+iframe {
    min-height: 350px;
    aspect-ratio: 16 / 9;
 }
 @media screen and (min-width: 768px) {
-   .contact__page-container{
+   .contact__page-container {
       position: relative;
    }
    .contact__page-container-two {
       position: absolute;
-      top: 200px;
-      left: 50px;
-      background-color: black;
+      top: 120px;
+      left: 32px;
+      background-color: #272727;
       max-width: 272px;
       max-height: 354px;
+      padding: 28px;
    }
    .contact__page-container-title {
       font-size: 50px;
    }
+   .map {
+      min-width: 695px;
+      min-height: 596px;
+   }
+   iframe {
+      aspect-ratio: 1 / 1;
+   }
 }
 @media screen and (min-width: 1920px) {
-   .contact__page-container{
+   .contact__page {
+      margin-top: 155px;
+   }
+   .contact__page-container {
       display: flex;
       flex-direction: column;
       margin-inline: 60px;
       max-width: 1800px;
    }
+   .contact__page-container-two {
+      top: 172px;
+      left: 325px;
+      max-width: 544px;
+      min-height: 605px;
+      padding: 88px;
+   }
+   .contact__page-container-two-text {
+      margin-top: 33px;
+      font-size: 16px;
+   }
+   .contact__page-container-two-telephone {
+      margin-top: 60px;
+      font-size: 32px;
+   }
+   .contact__page-container-two-email {
+      margin-top: 92px;
+      font-size: 16px;
+   }
+   .contact__page-container-two-links {
+      margin-top: 30px;
+      font-size: 16px;
+   }
+   .contact__page-container-two-time-first {
+      margin-top: 35px;
+      font-size: 16px;
+   }
    .contact__page-container-title {
       font-size: 60px;
-      margin-left: 298px;
+      margin-left: 320px;
    }
-   iframe{
+   iframe {
       width: 1800px;
       height: 768px;
    }
-   .map{
+   .map {
       max-width: 1800px;
       max-height: 768px;
    }
