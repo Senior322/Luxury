@@ -1,0 +1,15 @@
+.new__hero {
+   
+}
+.new__hero-container {
+   background-image: none, url("../images/NewHeroBackgraundLast.png");
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+.new__hero-container--title {
+   width: 100%;
+}
+.color__yellow{
+   margin-left: 60px;
+}
