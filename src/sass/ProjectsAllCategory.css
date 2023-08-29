@@ -1,0 +1,17 @@
+.relative {
+   margin-top: 122px;
+}
+
+.container__title {
+   color: #fff;
+   text-align: center;
+   font-family: Gilroy;
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 80px; /* 133.333% */
+   margin: auto;
+}
+.projects__menu-images{
+   margin-top: 84px;
+}

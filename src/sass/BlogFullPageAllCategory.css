@@ -1,0 +1,20 @@
+@media screen and (min-width: 1920px){
+.blog__page{
+  padding-top: 144px; 
+}
+.blog__page-container-title{
+   margin: auto;
+}
+.blog__page-container{
+   max-width: 1794;
+}
+.blog__page-galery-container-ul-li{
+   width: 426px;   
+}
+.li__bottom-item {
+   height: 297px;
+}
+.blog__page-galery-container-ul-li-img {
+   height: 581px;
+}
+}
