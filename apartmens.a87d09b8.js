@@ -1,2 +1,0 @@
-const e=document.querySelector(".img__1"),g=document.querySelector(".img__2"),o=document.querySelector(".img__3"),c=(document.querySelector(".galery__zoom"),document.querySelector(".galery__zoom-img"));e.addEventListener("click",(g=>{e.classList.toggle("galery__zoom");c.src="./images/img__1.png"})),g.addEventListener("click",(e=>{g.classList.toggle("galery__zoom");c.src="./images/img__2.png"})),o.addEventListener("click",(e=>{o.classList.toggle("galery__zoom");c.src="./images/img__3.png"}));
-//# sourceMappingURL=apartmens.a87d09b8.js.map
