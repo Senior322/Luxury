@@ -199,7 +199,17 @@
 @media screen and (min-width: 1920px){
    .hero__title-box{
       padding: 44px 28px;
-      margin: 278px 0px 310px 356px;
+      margin: 278px 0px 0px 356px;
+   }
+   .hero__button{
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      line-height: 24px;
+      letter-spacing: 4px;
+   }
+   .hero__button-list{
+      margin-left: 447px;
    }
    .hero__subtitle{
       font-size: 16px;
@@ -218,6 +228,7 @@
    }
    .hero__container{
       height: 970px;
+      padding-bottom: 35px;
    }
    .hero__sociall-links{
       right: 75px;
