@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".img__1"),o=document.querySelector(".img__2"),c=document.querySelector(".img__3"),t=(document.querySelector(".galery__zoom"),document.querySelector(".galery__zoom-img"));e.addEventListener("click",(function(o){e.classList.toggle("galery__zoom");t.src="./images/img__1.png"})),o.addEventListener("click",(function(e){o.classList.toggle("galery__zoom");t.src="./images/img__2.png"})),c.addEventListener("click",(function(e){c.classList.toggle("galery__zoom");t.src="./images/img__3.png"}))}();
+//# sourceMappingURL=apartmens.6a848841.js.map
