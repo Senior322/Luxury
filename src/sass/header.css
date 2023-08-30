@@ -118,6 +118,7 @@
 }
 .header__suppbox-language {
    display: flex;
+   gap: 8px;
 }
 .header__suppbox-language-li {
    color: #929292;
@@ -138,7 +139,6 @@
    font-weight: 600;
    line-height: normal;
    text-transform: uppercase;
-   padding-right: 8px;
 }
 .menu__ul {
    display: flex;
