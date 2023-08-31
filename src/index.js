@@ -1,4 +1,5 @@
 import './js/header'
+import './js/hero.js'
 import './js/Projects'
 import './js/owners'
 import './js/FAQ'

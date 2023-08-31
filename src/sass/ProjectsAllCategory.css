@@ -11,6 +11,7 @@
    font-weight: 700;
    line-height: 80px; /* 133.333% */
    margin: auto;
+   padding: 0;
 }
 .projects__menu-images{
    margin-top: 84px;
