@@ -105,6 +105,7 @@
    .expertise__title {
       margin: 14px 0px 22px;
       font-size: 30px;
+      max-width: 440px;
    }
    .placeholder {
       margin-top: 70px;
@@ -115,6 +116,12 @@
       gap: 30px;
       justify-content: center;
    }
+   .second__part-p{
+      margin-top: 30px;
+   }
+   .third__placeholder--text{
+      margin-top: 10px;
+   }
    .second__placeholder {
       width: 100%;
    }
@@ -123,6 +130,7 @@
    }
    .second__part--expression {
       padding: 38px 60px;
+      margin-bottom: 70px;
    }
    .second__part--expression-text {
       font-size: 18px;
@@ -140,9 +148,11 @@
    }
    .expertise__title{
       font-size: 70px;
+      max-width: 730px;
    }
    .expertise__p{
       font-size: 18px;
+      margin-top: 11px;
    }
    .first__part {
       width: 730px;
