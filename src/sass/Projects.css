@@ -124,6 +124,9 @@
       justify-content: space-between;
       margin-bottom: 25px;
    }
+   .projects__menu-images-description-text{
+      font-size: 12px;
+   }
    .projects__pagination {
       margin-top: 20px;
    }
@@ -162,5 +165,16 @@
    .projects__menu-images{
       margin-top: 53px;
       gap: 30px;
+   }
+   .projects__menu-images-li-text{
+      font-size: 32px;
+      margin-top: 31px;
+      margin-left: 30px;
+      margin-bottom: 40px;
+   }
+   .projects__menu-images-description-text{
+      font-size: 22px;
+      margin-left: 30px;
+      margin-top: 110px;
    }
 }
