@@ -97,8 +97,12 @@
 }
 .blog__page-pagination {
    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
    gap: 10px;
-   margin-top: 20px;
+   margin-top: 30px;
+   margin-bottom: 77px;
 }
 .blog__page-pagination-button-previous,
 .blog__page-pagination-button-next,
