@@ -66,6 +66,7 @@
    font-style: normal;
    font-weight: 700;
    line-height: 35px; /* 145.833% */
+   margin-top: 40px;
 }
 .border__yellow {
    position: relative;

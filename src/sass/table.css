@@ -13,7 +13,7 @@
 .table__table-tr-th {
    color: #272727;
    font-family: Gilroy;
-   font-size: 16px;
+   font-size: 12px;
    font-style: normal;
    font-weight: 400;
    line-height: 26px; /* 162.5% */
@@ -30,13 +30,13 @@
 }
 .table__td {
    color: #fff;
-   padding-block: 10px;
+   padding-block: 5px;
    color: #fff;
    font-family: Work Sans;
-   font-size: 16px;
+   font-size: 10px;
    font-style: normal;
-   font-weight: 700;
-   line-height: 26px; /* 162.5% */
+   font-weight: 300;
+   line-height: 18px; /* 162.5% */
 }
 .table__table-tr-body:nth-child(even) {
    background-color: rgba(255, 255, 255, 0.1);
@@ -53,6 +53,24 @@
    .table__table{
       min-width: 690px;
    }
+   .table__td {
+      color: #fff;
+      padding-block: 10px;
+      color: #fff;
+      font-family: Work Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px; /* 162.5% */
+   }
+   .table__table-tr-th {
+   color: #272727;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+}
 }
 @media screen and (min-width: 1920px) {
    .table {
