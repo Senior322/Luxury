@@ -1,6 +1,4 @@
 const Data = document.querySelector('.blog__page-galery-container-ul');
-
-
 const previous = document.querySelector(
   '.blog__page-pagination-button-previous'
 );
@@ -8,12 +6,12 @@ const next = document.querySelector('.blog__page-pagination-button-next');
 const dataItems = Data.querySelectorAll('.blog__page-galery-container-ul-li');
 const totalItems = dataItems.length;
 const buttons = document.querySelector('.blog__page-pagination-ul');
+const size = window.innerWidth;
 
 
 let currentPageIndex = 1;
 let itemsPerPage = 5;
 
-const size = window.innerWidth;
 if (size < 767) {
   itemsPerPage = 5;
 } else if (size < 1919) {
