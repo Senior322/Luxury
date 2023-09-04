@@ -130,6 +130,11 @@
    .search__form {
       display: flex;
       justify-content: space-between;
+      margin-left: 76px;
+      position: relative;
+   }
+   .search__form-input {
+      background-color: #272727;
       border: 1px solid #929292;
       min-width: 510px;
       /* height: 47px; */
@@ -137,15 +142,12 @@
       padding-top: 10px;
       padding-left: 20px;
       padding-bottom: 10px;
-      margin-left: 76px;
-   }
-   .search__form-input {
-      background-color: #272727;
    }
    .search__form-button {
-      /* padding-top: 8px;
-      padding-right: 22px;
-      padding-bottom: 8px; */
+      position: absolute;
+      top: 50%;
+      right: 25px;
+      transform: translateY(-50%);
    }
    .blog__page-container-title {
       font-size: 50px;

@@ -1,12 +1,17 @@
 .owners {
    margin-top: 50px;
    overflow: hidden;
-   position: relative;
+   /* position: relative; */
+   display: flex;
+
 }
 .owners__container {
    padding-top: 36px;
    display: flex;
    flex-direction: column;
+   position: relative;
+   max-width: 290px;
+   margin: auto;
 }
 .owners__wrapper {
    padding-top: 36px;
@@ -83,15 +88,15 @@
    gap: 13px;
    margin: auto;
 }
-.owners__pagination--button-active {
-   background-color: #fcd54c;
+.owners__pagination--button {
+   background-color: #929292;
    border-radius: 50%;
    width: 13px;
    height: 13px;
    flex-shrink: 0;
 }
-.owners__pagination--button {
-   background-color: #929292;
+.owners__pagination--button-active {
+   background-color: #fcd54c;
    border-radius: 50%;
    width: 13px;
    height: 13px;
@@ -106,7 +111,7 @@
    align-items: stretch;
    width: 100%;
    position: relative;
-   left: 30px;
+   left: 0;
    transition: all 0.63894228s linear 0s;
 }
 .owners__wrapper--up{
@@ -122,19 +127,22 @@
    .owners__wrapper--list {
    }
    .owners__container {
-      
+      max-width: 690px;
    }
    .owners__wrapper--list {
-      left: 41;
+      /* left: 41; */
    }
 }
 @media screen and (min-width: 1920px) {
    .owners__wrapper--list {
-      left: 405;
+      /* left: 405; */
       gap: 51px;
    }
    .owners__wrapper {
       min-width: 525px;
       max-width: 525px;
+   }
+   .owners__container {
+      max-width: 1100px;
    }
 }
