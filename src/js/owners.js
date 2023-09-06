@@ -25,17 +25,14 @@ window.addEventListener('resize', e => {
 function check() {
   if (document.body.scrollWidth < 768) {
     gap = gapArr[0];
-    // left = leftArr[0];
     control = 0;
   }
   if (document.body.scrollWidth >= 768 && document.body.scrollWidth < 1920) {
     gap = gapArr[1];
-    // left = leftArr[1];
     control = 1;
   }
   if (document.body.scrollWidth >= 1920) {
     gap = gapArr[2];
-    // left = leftArr[2];
     control = 2;
   }
   left = 0;
@@ -47,7 +44,7 @@ ownersList.addEventListener(
   e => (touchStart = e.targetTouches[0].clientX)
 );
 ownersList.addEventListener('touchend', e => {
-  if (touchStart && touchStart - e.changedTouches[0].clientX > 150) {
+  if (touchStart && touchStart - e.changedTouches[0].clientX > 50) {
     left = left - liWidth - gap;
     if (
       left <
@@ -66,7 +63,7 @@ ownersList.addEventListener('touchend', e => {
         : current + 1;
     addStyle();
   }
-  if (touchStart && touchStart - e.changedTouches[0].clientX < -150) {
+  if (touchStart && touchStart - e.changedTouches[0].clientX < -50) {
     left = left + liWidth + gap;
     if (left > 0) {
       check();

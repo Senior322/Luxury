@@ -94,11 +94,9 @@
 .hero__list {
    margin-top: 20px;
    border-bottom: 1px solid #fcd54c;
-   /* padding: 20px 65px 0px 37px; */
    height: 77px;
    display: flex;
    justify-content: space-between;
-   /* justify-content: baseline; */
 }
 .hero__list-li{
    display: flex;
@@ -111,6 +109,7 @@
    font-style: normal;
    font-weight: 700;
    line-height: normal;
+   cursor: pointer;
 }
 .hero__list-number--active {
    color: #fcd54c;
